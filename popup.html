@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>REVAMP™</title>
+  <style>
+    body { width: 300px; padding: 10px; }
+    label { display: block; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>REVAMP™</h1>
+  
+  <label for="background-color">Background Color:</label>
+  <input type="color" id="background-color">
+  
+  <label for="text-color">Text Color:</label>
+  <input type="color" id="text-color">
+  
+  <label for="font-family">Font Family:</label>
+  <select id="font-family">
+    <option value="Arial">Arial</option>
+    <option value="Helvetica">Helvetica</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Courier">Courier</option>
+  </select>
+  
+  <label for="remove-element">Remove Element (CSS Selector):</label>
+  <input type="text" id="remove-element">
+  <button id="add-remove-element">Add</button>
+  
+  <div id="remove-list"></div>
+  
+  <button id="apply-changes">Apply Changes</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
